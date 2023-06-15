@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../../assets/fonts/Inter-Regular.eot);
+  src: local("Inter Regular"), local("../../assets/fonts/Inter-Regular"),
+    url(../../assets/fonts/Inter-Regular.eot?#iefix) format("embedded-opentype"),
+    url(../../assets/fonts/Inter-Regular.woff) format("woff"),
+    url(../../assets/fonts/Inter-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../../assets/fonts/Inter-Medium.eot);
+  src: local("Inter Medium"), local("../../assets/fonts/Inter-Medium"),
+    url(../../assets/fonts/Inter-Medium.eot?#iefix) format("embedded-opentype"),
+    url(../../assets/fonts/Inter-Medium.woff) format("woff"),
+    url(../../assets/fonts/Inter-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter";
+  height: 100%;
+  width: 100%;
+  background: #ebeef3;
+}

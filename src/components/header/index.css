@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background: #fff;
+}
+
+.header__left {
+  margin: 0px 22px;
+}
+
+.header__left a {
+  color: black;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.header__right {
+  display: flex;
+  margin: 16px 22px;
+  align-items: center;
+  gap: 27px;
+}
+
+.header__right a {
+  color: #000000d9;
+  line-height: 28px;
+  font-size: 18px;
+}
+
+.sign-up a {
+  color: #52c41a;
+}
+
+.sign-up {
+  padding: 10px 18px;
+  padding-top: 6px;
+  padding-bottom: 10px;
+  border: 1px solid #52c41a;
+  border-radius: 5px;
+}
+
+.date-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  cursor: pointer;
+}
+
+.create-article a {
+  color: #52c41a;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.create-article {
+  border: 1px solid #52c41a;
+  border-radius: 5px;
+  padding: 6px 10px;
+}
+
+.log-out {
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000bf;
+  padding: 7px 18px;
+  border-radius: 5px;
+  border: 1px solid #000000bf;
+  cursor: pointer;
+}
